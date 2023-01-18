@@ -1,11 +1,5 @@
 package easy.merge_two_binary_trees;
 
-import com.sun.source.tree.Tree;
-
-import java.util.LinkedList;
-import java.util.Optional;
-import java.util.Queue;
-
 public class Solution {
     public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
         if (root1 == null && root2 ==null) {
